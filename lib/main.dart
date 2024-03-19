@@ -7,7 +7,7 @@ void main() {
   runApp(MyApp());
 }
 
-class MyApp extends  {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
