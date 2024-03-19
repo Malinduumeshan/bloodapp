@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 
 class InputScreen extends StatelessWidget {
   final systolicController = TextEditingController();
-  final diastolicController = TextEditingController();
+  final diastolicController = 
 
   @override
   Widget build(BuildContext context) {
