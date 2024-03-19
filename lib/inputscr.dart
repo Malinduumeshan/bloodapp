@@ -63,7 +63,7 @@ class InputScreen extends StatelessWidget {
       String hintText, TextEditingController controller, IconData iconData) {
     return TextFormField(
       controller: controller,
-      keyboardType: TextInputType.number, // Set the keyboard type to number
+      keyboardType: TextInputType.number,
       decoration: InputDecoration(
         floatingLabelBehavior: FloatingLabelBehavior.always,
         border: OutlineInputBorder(
