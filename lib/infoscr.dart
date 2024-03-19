@@ -40,9 +40,9 @@ class InformationScreen extends StatelessWidget {
     }
 
     return Scaffold(
-      extendBodyBehindAppBar: true, // Remove white margin at the top
+      extendBodyBehindAppBar: true,
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(60.0), // Set the height of the app bar
+        preferredSize: Size.fromHeight(60.0),
         child: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0,
